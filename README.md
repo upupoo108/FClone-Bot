@@ -8,8 +8,11 @@
 [![License](https://img.shields.io/github/license/fxxkrlab/iCopy?style=flat-square&logo=appveyor)](https://bbs.jsu.net/c/official-project/icopy/6)
 [![DATABASE](https://img.shields.io/badge/DATABASE-MongoDB-brightgreen?style=flat-square&logo=appveyor)](https://github.com/mongodb/mongo)
 [![Stars](https://img.shields.io/github/stars/Nenokkadine/FClone-Bot?style=flat-square&logo=appveyor)](https://github.com/Nenokkadine/FClone-Bot)  
+
+## Running it Google Colab
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nenokkadine/FClone-Bot/blob/master/iCopy.ipynb)
  
- ## Deployment to Heroku
+## Deployment to Heroku
  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/master)
 
