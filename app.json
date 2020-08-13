@@ -83,7 +83,7 @@
 		},
 		"DASHBOARD": {
 			"description": "Web Dashboard Switch 0:OFF 1:ON",
-			"value": "1"
+			"value": "0"
 		},
 		"WEB_PORT": {
 			"description": "Default Web Port",
