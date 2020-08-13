@@ -13,8 +13,9 @@
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nenokkadine/FClone-Bot/blob/master/iCopy.ipynb)
  
 ## Deployment to Heroku
+Web DashBoard Not Yet Supported
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/dev)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/master)
 
 ## Credits 
 
