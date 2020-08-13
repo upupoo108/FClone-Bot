@@ -35,6 +35,10 @@ from multiprocessing import Process as _mp, Manager
 from threading import Thread
 from utils.load import ns
 from web import dash
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+)
+logger = logging.getLogger(__name__)
 if __name__ == "__main__":
     if load.cfg['web']['dashboard']:
         web = _mp(target=dash.dashboard)
