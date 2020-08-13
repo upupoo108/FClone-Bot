@@ -3,6 +3,8 @@ from sanic import Sanic, response
 from sanic_cors import CORS, cross_origin
 from utils import load
 from web import cook_resp as _resp
+from multiprocessing import Process as _mp, Manager
+from utils.load import ns
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.DEBUG
@@ -119,3 +121,7 @@ app.static("/", "./web/vue-admin-simple/dist/index.html", content_type="text/htm
 web_port = _cfg['web']['port']
 def dashboard():
     app.run(host="0.0.0.0", port=web_port)
+    
+if __name__ == "__main__":
+    if load.cfg['web']['dashboard']:
+        dashboard()
