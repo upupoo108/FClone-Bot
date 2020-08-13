@@ -1,1 +1,1 @@
-web : source Set.sh && python3 iCopy/BotWeb.py
+web : source Set.sh
