@@ -39,6 +39,12 @@ echo "[tg]
 "sa_path = "\"$SA_PATH\"
 
 run_args = $RUN_ARGS
+
+[web]
+
+dashboard = $DASHBOARD
+
+port = $WEB_PORT
 " >> conf.toml
 echo "[$RCLONE_RMT]
 type = drive

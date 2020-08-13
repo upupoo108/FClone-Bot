@@ -1,1 +1,1 @@
-worker: source Set.sh
+web,worker: source Set.sh
