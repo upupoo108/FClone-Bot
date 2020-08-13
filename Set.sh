@@ -54,5 +54,6 @@ scope = drive
 "team_drive = $FOLDER_ID"
 " >> rclone.conf
 cd ..
+cd ..
 wget --no-check-certificate -q $SA_ZIP_URL -O accounts.zip
-unzip -qq accounts.zip -d /app/iCopy/
+unzip -qq accounts.zip -d ./iCopy
