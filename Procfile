@@ -1,2 +1,2 @@
 worker : source Set.sh
-web : iCopy/BotWeb.py
+web : python3 iCopy/BotWeb.py
