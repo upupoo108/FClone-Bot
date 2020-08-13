@@ -175,7 +175,4 @@ if __name__ == "__main__":
     ns.x = 0
     progress = _mp(target=_payload.task_buffer, args=(ns,))
     progress.start()
-    if load.cfg['web']['dashboard']:
-        web = _mp(target=dash.dashboard)
-        web.start()
     main()
