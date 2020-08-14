@@ -119,5 +119,5 @@ app.static("/", "./web/vue-admin-simple/dist/")
 app.static("/", "./web/vue-admin-simple/dist/index.html", content_type="text/html; charset=utf-8")
 web_port = _cfg['web']['port']
 def dashboard():
-    port = int(os.environ.get("PORT", 8000))
-    app.run(host="0.0.0.0", port=port)
+    prt = int(os.environ.get("PORT", 8000))
+    app.run(host="0.0.0.0", port=prt)
