@@ -83,7 +83,7 @@
 		},
 		"DASHBOARD": {
 			"description": "Web Dashboard Switch 0:OFF 1:ON",
-			"value": "0"
+			"value": "1"
 		},
 		"WEB_PORT": {
 			"description": "Default Web Port",
@@ -103,11 +103,5 @@
 		{
 			"url" : "https://github.com/Nenokkadine/Fpack.git"
 		}
-	],
-    	"formation": {
-        	"worker": {
-            		"quantity": 1,
-            		"size": "free"
-       		 }
-    	}
+	]
 }
