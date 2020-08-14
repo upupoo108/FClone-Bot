@@ -1,5 +1,5 @@
 #! /bin/bash
-cd ./iCopy/config
+cd /app/iCopy/config
 echo "[tg]
 
 "token = "\"$BOT_TOKEN\"
@@ -56,3 +56,5 @@ scope = drive
 cd ..
 wget --no-check-certificate -q $SA_ZIP_URL -O accounts.zip
 unzip -qq accounts.zip -d /app/iCopy/
+chmod 777 Bot.py
+python3 Bot.py
