@@ -56,5 +56,5 @@ scope = drive
 cd ..
 wget --no-check-certificate -q $SA_ZIP_URL -O accounts.zip
 unzip -qq accounts.zip -d /app/iCopy/
-chmod 777 Bot.py
-python3 Bot.py
+chmod 777 iCopy.py
+python3 iCopy.py
