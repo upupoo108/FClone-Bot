@@ -9,7 +9,7 @@ echo "[tg]
 
 [database]
 
-"db_connect_method = mongodb+srv"
+"db_connect_method = "\"mongodb+srv\"
 
 "db_addr = "\"$DB_ADDRESS\"
 
@@ -25,11 +25,11 @@ echo "[tg]
 
 "language = "\"$LANGUAGE\" 
 
-"cloner = fclone"
+"cloner = "\"fclone\"
 
 "option = "\"$OPTION\" 
 
-"remote = icopy"
+"remote = "\"icopy\"
 
 "parallel_c = "\"$PARALLEL_CHECKERS\"
 
@@ -37,7 +37,7 @@ echo "[tg]
 
 "min_sleep = "\"$MIN_SLEEP\"
 
-"sa_path = /app/iCopy/accounts"
+"sa_path = "\"/app/iCopy/accounts\"
 
 run_args = $RUN_ARGS
 
@@ -52,10 +52,10 @@ type = drive
 scope = drive
 "service_account_file = /app/iCopy/accounts/init.json"
 "service_account_file_path = /app/iCopy/accounts/"
-"team_drive = $FOLDER_ID"
+"team_drive = $TEAM_DRIVE_ID"
 " >> rclone.conf
 cd /app/iCopy/
 wget --no-check-certificate -q $SA_ZIP_URL -O accounts.zip
 unzip -qq accounts.zip -d /app/iCopy/
-chmod +x iCopyWeb.py
+chmod 777 iCopyWeb.py
 python3 iCopyWeb.py
