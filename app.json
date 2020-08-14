@@ -104,10 +104,4 @@
 			"url" : "https://github.com/Nenokkadine/Fpack.git"
 		}
 	],
-    	"formation": {
-        	"worker": {
-            		"quantity": 1,
-            		"size": "free"
-       		 }
-    	}
 }
