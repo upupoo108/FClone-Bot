@@ -36,7 +36,6 @@ from threading import Thread
 from utils.load import ns
 from web import dash
 
-if __name__ == "__main__":
-    if load.cfg['web']['dashboard']:
-        web = _mp(target=dash.dashboard)
-        web.start()
+if load.cfg['web']['dashboard']:
+    web = _mp(target=dash.dashboard)
+    web.start()
