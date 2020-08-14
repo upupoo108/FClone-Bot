@@ -121,3 +121,7 @@ app.static("/", "./web/vue-admin-simple/dist/index.html", content_type="text/htm
 web_port = _cfg['web']['port']
 def dashboard():
     app.run(host="0.0.0.0", port=web_port)
+    
+if __name__ == "__main__":
+    if load.cfg['web']['dashboard']:
+        dashboard()
