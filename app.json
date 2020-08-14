@@ -60,7 +60,7 @@
 		},
 		"SA_INIT_FILE": {
 			"description": "Give a service account File Name. ex 1.json "
-		},
+		}
 	},
 	"buildpacks": [
 		{
