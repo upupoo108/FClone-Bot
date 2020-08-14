@@ -4,7 +4,7 @@
 import os, sys, logging
 from multiprocessing import Process as _mp, Manager
 from web import dash
-web = os.environ.get("DASHBOARD")
-if web == true:
+webdash = os.environ.get("DASHBOARD")
+if webdash == true:
     web = _mp(target=dash.dashboard)
     web.start()
