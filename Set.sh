@@ -1,5 +1,5 @@
 #! /bin/bash
-cd app/iCopy/config/
+cd /app/iCopy/config/
 echo "[tg]
 
 "token = "\"$BOT_TOKEN\"
