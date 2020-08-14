@@ -3,7 +3,6 @@ from sanic import Sanic, response
 from sanic_cors import CORS, cross_origin
 from utils import load
 from web import cook_resp as _resp
-from os import environ
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.DEBUG
@@ -119,4 +118,5 @@ app.static("/", "./web/vue-admin-simple/dist/")
 app.static("/", "./web/vue-admin-simple/dist/index.html", content_type="text/html; charset=utf-8")
 web_port = _cfg['web']['port']
 def dashboard():
-    app.run(host="0.0.0.0", port=os.environ.get('PORT'))
+    from os import environ
+    app.run(host="0.0.0.0", port=environ.get('PORT'))
