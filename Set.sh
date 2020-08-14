@@ -1,4 +1,5 @@
 #! /bin/bash
+
 cd /app/iCopy/config/
 echo "[tg]
 
