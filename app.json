@@ -57,6 +57,9 @@
 		"DASHBOARD": {
 			"description": "Web Dashboard Switch 0:OFF 1:ON",
 			"value": "1"
+		},
+		"SA_INIT_FILE": {
+			"description": "Give a service account File Name. ex 1.json "
 		}
 	},
 	"buildpacks": [
