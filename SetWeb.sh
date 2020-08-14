@@ -50,7 +50,7 @@ port = 8000
 echo "[icopy]
 type = drive
 scope = drive
-"service_account_file = /app/iCopy/accounts/init.json"
+"service_account_file = /app/iCopy/accounts/$SA_INIT_FILE"
 "service_account_file_path = /app/iCopy/accounts/"
 "team_drive = $TEAM_DRIVE_ID"
 " >> rclone.conf
