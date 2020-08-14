@@ -9,11 +9,11 @@ echo "[tg]
 
 [database]
 
-"db_connect_method = "\"$DB_CONNECT_METHOD\"
+"db_connect_method = mongodb+srv"
 
 "db_addr = "\"$DB_ADDRESS\"
 
-"db_port = "$DB_PORT""
+"db_port = 27017"
 
 "db_name = "\"$DB_NAME\"
 
@@ -25,11 +25,11 @@ echo "[tg]
 
 "language = "\"$LANGUAGE\" 
 
-"cloner = "\"$CLONER\"
+"cloner = fclone"
 
 "option = "\"$OPTION\" 
 
-"remote = "\"$RCLONE_RMT\"
+"remote = icopy"
 
 "parallel_c = "\"$PARALLEL_CHECKERS\"
 
@@ -37,7 +37,7 @@ echo "[tg]
 
 "min_sleep = "\"$MIN_SLEEP\"
 
-"sa_path = "\"$SA_PATH\"
+"sa_path = /app/iCopy/accounts"
 
 run_args = $RUN_ARGS
 
@@ -47,11 +47,11 @@ dashboard = $DASHBOARD
 
 port = 8000
 " >> conf.toml
-echo "[$RCLONE_RMT]
+echo "[icopy]
 type = drive
 scope = drive
-"service_account_file = /app/iCopy/accounts/$SA_INIT_FILE"
-"service_account_file_path = $SA_PATH"
+"service_account_file = /app/iCopy/accounts/init.json"
+"service_account_file_path = /app/iCopy/accounts/"
 "team_drive = $FOLDER_ID"
 " >> rclone.conf
 cd /app/iCopy/
