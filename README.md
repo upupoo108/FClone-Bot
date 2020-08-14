@@ -1,4 +1,4 @@
-# iCopy Version 0.2.0-Beta.6.7
+# iCopy Version 0.2.1-beta.1
 
 [<img src="https://f002.backblazeb2.com/file/jsuforum-upload/optimized/1X/cff2835c1652bb57a18aac42a3eee34b51cd9b89_2_1380x386.gif" width="50%" alt="iCopy">](https://bbs.jsu.net/c/official-project/icopy/6)  
 
@@ -10,9 +10,11 @@
 [![Stars](https://img.shields.io/github/stars/Nenokkadine/FClone-Bot?style=flat-square&logo=appveyor)](https://github.com/Nenokkadine/FClone-Bot)  
 
 ## Running it Google Colab
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nenokkadine/FClone-Bot/blob/master/iCopy.ipynb)
+iCopy Version - 0.2.0-Beta.6.7
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nenokkadine/FClone-Bot/blob/master/iCopy.ipynb) 
  
 ## Deployment to Heroku
+iCopy Version - v0.2.1-beta.1
  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/master)
 
