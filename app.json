@@ -53,7 +53,7 @@
 		"RUN_ARGS": {
 			"description": "Only Change this if U Know",
 			"value": "['-P', '--ignore-checksum' , '--stats=1s', '--log-level=DEBUG', '--log-file=/app/icopy_cloner_debug.log']"
-		}
+		},
 		"SA_INIT_FILE": {
 			"description": "Give a service account File Name. ex 1.json "
 		}
@@ -76,10 +76,6 @@
         	"worker": {
             		"quantity": 1,
             		"size": "free"
-       		 },
-		"web":{
-			"quantity": 1,
-            		"size": "free"
-		}
+       		 }
     	}
 }
