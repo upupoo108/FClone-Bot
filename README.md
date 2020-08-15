@@ -14,7 +14,7 @@ iCopy Version - 0.2.0-Beta.6.7
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nenokkadine/FClone-Bot/blob/master/iCopy.ipynb) 
  
 ## Deployment to Heroku
-iCopy Version - v0.2.1-beta.1
+iCopy Version - v0.2.2
  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/master)
 
