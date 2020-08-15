@@ -43,7 +43,7 @@ run_args = $RUN_ARGS
 
 [web]
 
-dashboard = $DASHBOARD
+dashboard = 0
 
 port = 8000
 " >> conf.toml
