@@ -6,5 +6,5 @@ echo -e "[icopy]\ntype = drive\nscope = drive\n"service_account_file = /app/iCop
 cd /app/iCopy/
 wget --no-check-certificate -q $SA_ZIP_URL -O accounts.zip
 unzip -qq accounts.zip -d /app/iCopy/
-chmod 777 iCopy.py
+chmod +x iCopy.py
 python3 iCopy.py
