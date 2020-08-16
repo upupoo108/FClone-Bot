@@ -22,7 +22,7 @@ iCopy Version - v0.2.2 (Only Web DashBoard)
  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/web)
 
-Deploy Both If U wanna Use Web Dashboard and use the same config vars for the Bot one
+Deploy Both If U wanna Use Web Dashboard and use the same config vars for Web one as the Bot one.
 
 ## Credits 
 
