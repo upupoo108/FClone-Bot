@@ -21,7 +21,7 @@ echo "[tg]
 "sa_path = "\"$SA_PATH\"
 run_args = $RUN_ARGS
 [web]
-dashboard = 0
+dashboard = 1
 port = 8000
 " >> conf.toml
 echo "[$RCLONE_RMT]
