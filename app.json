@@ -79,6 +79,10 @@
 		"SA_PATH": {
 			"description": "Dont Change",
 			"value": "/app/iCopy/accounts"
+		},
+		"DASHBOARD": {
+			"description": "ENABLE = 1 DISABLE =0",
+			"value": "1"
 		}
 	},
 	"buildpacks": [
@@ -96,7 +100,7 @@
 		}
 	],
     	"formation": {
-        	"worker": {
+        	"web": {
             		"quantity": 1,
             		"size": "free"
        		 }
