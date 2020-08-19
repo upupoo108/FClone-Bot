@@ -6,7 +6,7 @@
 	"env": {
 		"BOT_TOKEN": {
 			"description": "Get from Telegram Botfather",	
-				"value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
+		        "value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
 		},
 		"USER_ID": {
 			"description": "get from telegram get_id_bot",
@@ -34,7 +34,7 @@
 		},
 		"DB_PASS": {
 			"description": "MongoDB Password",
-			'value": "cxlg66you"
+			"value": "cxlg66you"
 		},
 		"LANGUAGE": {
 			"description": "English by Default Support cn and jp",
