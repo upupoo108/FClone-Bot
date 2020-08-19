@@ -16,7 +16,7 @@ iCopy Version - 0.2.0-Beta.6.7
 ## Deployment to Heroku
 iCopy Version - v0.2.2 (No Web DashBoard Only Bot)
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/Fclone-Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/cddc22/Fclone-Bot/tree/master)
 
 iCopy Version - v0.2.2 (Only Web DashBoard)
  
