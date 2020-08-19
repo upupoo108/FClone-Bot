@@ -5,7 +5,7 @@
 	"keywords": ["Fclone","Icopy"],
 	"env": {
 		"BOT_TOKEN": {
-			"description": "Get from Telegram Botfathe"
+			"description": "Get from Telegram Botfathe",
 			"value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
 		},
 		"USER_ID": {
