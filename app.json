@@ -5,7 +5,7 @@
 	"keywords": ["Fclone","Icopy"],
 	"env": {
 		
-		RCLONE_CONFIG": {
+		"RCLONE_CONFIG": {
 			"description": "Dont Change",
 			"value": "/app/iCopy/config/rclone.conf"
 		},
