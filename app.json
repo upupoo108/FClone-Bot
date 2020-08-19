@@ -5,11 +5,11 @@
 	"keywords": ["Fclone","Icopy"],
 	"env": {
 		"BOT_TOKEN": {
-			"description": "Get from Telegram Botfather"	
+			"description": "Get from Telegram Botfather",	
 				"value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
 		},
 		"USER_ID": {
-			"description": "get from telegram get_id_bot"
+			"description": "get from telegram get_id_bot",
 			"value": "244186213"
 		},
 		"DB_CONNECT_METHOD": {
@@ -17,7 +17,7 @@
 			"value": "mongodb+srv"
 		},
 		"DB_ADDRESS": {
-			"description": "MongoDB Host Address"
+			"description": "MongoDB Host Address",
 			"value": "icopy.21e64.gcp.mongodb.net/iCopy?retryWrites=true&w=majority"
 		},
 		"DB_PORT": {
@@ -29,11 +29,11 @@
 			"value": "iCopy"
 		},
 		"DB_USERNAME": {
-			"description": "MongoDB Username"
+			"description": "MongoDB Username",
 			"value": "cxlg66you"
 		},
 		"DB_PASS": {
-			"description": "MongoDB Password"
+			"description": "MongoDB Password",
 			'value": "cxlg66you"
 		},
 		"LANGUAGE": {
@@ -73,11 +73,11 @@
 			"value": "/app/iCopy/config/rclone.conf"
 		},
 		"SA_ZIP_URL": {
-			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it "
+			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it ",
 			"value": "https://raw.githubusercontent.com/cddc22/FClone-Bot/master/sa.zip"
 		},
 		"TEAM_DRIVE_ID": {
-			"description": "Destination Team Drive ID"
+			"description": "Destination Team Drive ID",
 			"value": "z0AAMbQ2_iy4gWUk9PVA"
 		},
 		"RUN_ARGS": {
