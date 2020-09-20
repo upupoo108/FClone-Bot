@@ -5,20 +5,13 @@
 	"keywords": ["Fclone","Icopy"],
 	"env": {
 		"BOT_TOKEN": {
-			"description": "Get from Telegram Botfathe",
-			"value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
+			"description": "Get from Telegram Botfather"
 		},
 		"USER_ID": {
-			"description": "get from telegram get_id_bot",
-			"value": "244186213"
-		},
-		"DB_CONNECT_METHOD": {
-			"description": "DB Connect Method",
-			"value": "mongodb+srv"
+			"description": "get from telegram get_id_bot"
 		},
 		"DB_ADDRESS": {
-			"description": "MongoDB Host Address",
-			"value": "icopy.21e64.gcp.mongodb.net/iCopy?retryWrites=true&w=majority"
+			"description": "MongoDB Host Address"
 		},
 		"DB_PORT": {
 			"description": "MongoDB Port, Default is 27017",
@@ -29,15 +22,13 @@
 			"value": "iCopy"
 		},
 		"DB_USERNAME": {
-			"description": "MongoDB Username",
-			"value": "cxlg66you"
+			"description": "MongoDB Username"
 		},
 		"DB_PASS": {
-			"description": "MongoDB Password",
-			"value": "cxlg66you"
+			"description": "MongoDB Password"
 		},
 		"LANGUAGE": {
-			"description": "English by Default Support cn and jp",
+			"description": "cn by Default Support eng and jp",
 			"value": "cn"
 		},
 		"CLONER": {
@@ -60,29 +51,30 @@
 			"description": "Dont Give More than 300 Heroku Free Dyno may Crash",
 			"value": "250"
 		},
+		"DB_CONNECT_METHOD": {
+			"description": "DB Connect Method",
+			"value": "mongodb+srv"
+		},
 		"MIN_SLEEP": {
 			"description": "customize drive-pacer-min-sleep",
 			"value": "1ms"
 		},
 		"SA_INIT_FILE": {
-			"description": "Give a service account File Name. ex 1.json ",
-			"value": "1.json"
+			"description": "Give a service account File Name. ex 1.json "
 		},
 		"RCLONE_CONFIG": {
 			"description": "Dont Change",
 			"value": "/app/iCopy/config/rclone.conf"
 		},
 		"SA_ZIP_URL": {
-			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it ",
-			"value": "https://raw.githubusercontent.com/cddc22/FClone-Bot/master/sa.zip"
+			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it "
 		},
 		"TEAM_DRIVE_ID": {
-			"description": "Destination Team Drive ID",
-			"value": "z0AAMbQ2_iy4gWUk9PVA"
+			"description": "Destination Team Drive ID"
 		},
 		"RUN_ARGS": {
 			"description": "Only Change this if U Know",
-			"value": "['-P', '--ignore-checksum' , '--stats=1s', '--log-level=DEBUG', '--log-file=/app/icopy_cloner_debug.log']"
+			"value": "['-P', '--ignore-checksum', '--stats=1s', '--log-level=DEBUG', '--log-file=/app/icopy_cloner_debug.log']"
 		},
 		"SA_PATH": {
 			"description": "Dont Change",
