@@ -11,7 +11,7 @@
 
 ## Running it Google Colab
 iCopy Version - 0.2.0-Beta.6.7
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nenokkadine/FClone-Bot/blob/master/iCopy.ipynb) 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/upupoo108/FClone-Bot/blob/master/iCopy.ipynb) 
  
 ## Deployment to Heroku
 iCopy Version - v0.2.2 (No Web DashBoard Only Bot)
